@@ -1,0 +1,929 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    background-color: #1D1D1D;
+    overflow-x: hidden;
+    font-family: roboto;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+}
+
+
+
+/*==================== Navbar CSS Start ===================*/
+#navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.navbar-light .navbar-brand {
+    width: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0px 5px;
+    transition: all linear .3s;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link i {
+    font-size: 8px;
+    padding-left: 5px;
+}
+
+.dropdown-menu {
+    color: #fff;
+    background-color: #999;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+form.form-inline .btn-secondary {
+    background-color: transparent;
+    border: transparent;
+    transition: all linear .3s;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+form.form-inline .btn-secondary i {
+    font-size: 8px;
+    padding-left: 5px;
+}
+
+
+form.form-inline .en {
+    padding-bottom: 5px;
+}
+
+.btn-secondary:hover {
+    background-color: transparent;
+}
+
+form.form-inline .btn-primary {
+    background-color: #2C2C2B;
+    border: transparent;
+    border-radius: 23px;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 400;
+    font-size: 16px;
+    transition: all linear .3s;
+    padding: 10px, 24px, 10px, 24px;
+}
+
+
+.dropdown-toggle::after {
+    visibility: hidden;
+}
+
+
+
+/*=============== Banner Part CSS ==================*/
+#banner {
+    position: relative;
+    padding-top: 125px;
+    padding-bottom: 100px;
+    background: url(../img/banner/BG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner-img-left {
+    position: absolute;
+    top: 147px;
+    left: 375px;
+}
+
+.banner-img-right {
+    position: absolute;
+    top: 147px;
+    right: 320px;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner-content h1 {
+    font-weight: 700;
+    font-size: 110px;
+    line-height: 110px;
+    text-transform: uppercase;
+    color: #F0B38C;
+    position: relative;
+    z-index: 999;
+}
+
+.banner-content .colorh1 {
+    color: #fff;
+}
+
+.banner-content .colorh2 {
+    color: #AFD7B3;
+}
+
+.banner-content p {
+    font-family: 'Comic Neue', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 5px 480px;
+}
+
+.banner-button button {
+    margin-left: 10px;
+    padding: 15px 35px;
+    background: #AFD7B3;
+    border-radius: 29px;
+    color: #000;
+    border: transparent;
+    transition: all linear .3s;
+}
+
+.banner-button button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.banner-rating {
+    padding-top: 20px;
+}
+
+.banner-rating i {
+    color: #F9DF08;
+}
+
+.banner-rating span {
+    font-family: 'Comic Neue', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+
+
+/*======================= Banner Bottom CSS Start ====================*/
+
+#banner-buttom {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background: #1D1B1D;
+    text-align: center;
+}
+
+.banner-button-content {
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+
+
+/*========================== Events Part Start ======================*/
+#event {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.event-contet h2 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 76px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+
+.event-contet h3 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.event-contet p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #BFBFBF;
+    padding-right: 15px;
+}
+
+.event-img img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.event-img {
+    position: relative;
+}
+
+.event-img2 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 99;
+}
+
+
+/*==================== Team Part CSS Start ===================*/
+#team {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.team-content {
+    margin-bottom: 100px;
+}
+
+
+.team-content h3 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 76px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.team-content p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #BFBFBF;
+}
+
+.team-card {
+    transition: all linear .3s;
+
+}
+
+.team-card .card-one {
+    background: #B8B9EE;
+}
+
+.team-card .card-two {
+    background: #FFCF96;
+    transform: translateY(-45px);
+}
+
+.team-card .card-three {
+    background: #70D18C;
+}
+
+
+
+.team-card .card {
+    border-radius: 18px;
+    border: transparent;
+}
+
+
+.team-card .card-img-overlay {
+    top: 290px;
+    background: linear-gradient(180deg, rgba(29, 29, 29, 0) 1%, #1D1D1D 104.37%);
+}
+
+.team-card:hover {
+    transform: translateY(-45px);
+}
+
+
+/*========================= Schedule Part CSS Start ===========================*/
+#schedule {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.left-part h3 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 76px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+}
+
+
+.left-part p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+
+}
+
+.left-part button {
+    padding: 20px 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 130px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: all linear .3s;
+}
+
+.left-part button:hover {
+    background: #FFCF96;
+    color: #000;
+}
+
+.right-top {
+    padding-top: 15px;
+}
+
+.right-top::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 85px;
+    width: 80%;
+    height: 1px;
+    background: #BFBFBF;
+}
+
+.right-top-one::after {
+    position: absolute;
+    content: '';
+    bottom: -1px;
+    left: 15px;
+    width: 86%;
+    height: 3px;
+    background: #fff;
+    border-radius: 2px;
+}
+
+.right-top-one h4 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.right-top-one p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.right-top-one span {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    color: #BFBFBF;
+}
+
+.right-top-two h4 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #BFBFBF;
+    padding-bottom: 10px;
+}
+
+.right-top-two p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    color: #BFBFBF;
+}
+
+.right-top-two span {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    color: #BFBFBF;
+}
+
+.right-top-three h4 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #BFBFBF;
+    padding-bottom: 10px;
+}
+
+.right-top-three p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    color: #BFBFBF;
+}
+
+.right-top-three span {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    color: #BFBFBF;
+}
+
+.right-botton {
+    margin-top: 15px;
+}
+
+.right-botton-one h4 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #BFBFBF;
+}
+
+.right-botton-two {
+    padding-left: 25px;
+}
+
+.right-botton-two h5 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.right-botton-two p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #BFBFBF;
+}
+
+.right-border::after {
+    position: absolute;
+    content: '';
+    top: 14px;
+    right: 0;
+    width: 2px;
+    height: 94px;
+    background: #FFCF96;
+}
+
+.right-botton-one i {
+    position: absolute;
+    top: 2px;
+    right: -5px;
+    color: #FFCF96;
+    font-size: 12px;
+}
+
+
+/*===================== Pricing Part CSS Start ========================*/
+#price {
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.price-card {
+    padding-top: 60px;
+}
+
+.price-content h3 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 76px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.price-card .card {
+    border: 1px solid #383838;
+    border-radius: 18px;
+}
+
+
+.price-card .card-header h3 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.price-card .card-header p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.price-card .card-header {
+    border: 1px solid #383838;
+    border-radius: 18px 18px 0px 0px;
+    background: #1D1D1D;
+    padding: 25px 0px 5px 30px;
+}
+
+.price-card .card-body {
+    background: #272727;
+    padding-top: 90px;
+    padding-left: 25px;
+}
+
+.price-card .card-body ul>li img {
+    padding-right: 10px;
+}
+
+.price-card .card-body ul>li {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #E5E5E5;
+    padding-bottom: 25px;
+}
+
+.price-card .card-footer {
+    background: #272727;
+    padding-bottom: 25px;
+}
+
+.price-card .card-footer button {
+    width: 302px;
+    height: 51px;
+    left: 171px;
+    top: 4341px;
+    background: #1D1D1D;
+    border: 1px solid #383838;
+    border-radius: 54px;
+    text-align: left;
+    padding-left: 20px;
+    transition: all linear .3s;
+    text-transform: uppercase;
+}
+
+.price-card .card-footer button:hover {
+    background: #5162FE;
+}
+
+.price-card .card-footer button i {
+    padding-left: 105px;
+}
+
+.price-card .card-footer {
+    border: transparent;
+    border-radius: 0px 0px 18px 18px;
+}
+
+.price-card .header-two {
+    background: #F36B7F;
+}
+
+.price-card .header-three {
+    background: #70D18C;
+}
+
+
+/*======================== Review Part CSS Start =======================*/
+#review {
+    padding-bottom: 100px;
+}
+
+.review-bg {
+    padding: 50px;
+    padding-bottom: 90px;
+    background: #272727;
+    border-radius: 18px;
+}
+
+.review-img {
+    background: #F36B7F;
+    border-radius: 18px;
+}
+
+.review-img img {
+    width: 100%;
+}
+
+.review-content-header {
+    padding-bottom: 30px;
+}
+
+.review-content-header::after {
+    position: absolute;
+    content: '';
+    top: 60px;
+    left: 15px;
+    width: 70%;
+    height: 1px;
+    background: #737373;
+
+}
+
+.review-content-header h3 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.review-content-header h4 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.review-content-p p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #F0F0F0;
+
+}
+
+.next-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    color: #fff;
+    font-size: 18px;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    text-align: center;
+    background: #1d1d1d84;
+    padding-top: 22px;
+    cursor: pointer;
+}
+
+.prev-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+    color: #fff;
+    font-size: 18px;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    text-align: center;
+    background: #1d1d1d74;
+    padding-top: 22px;
+    cursor: pointer;
+    z-index: 99;
+}
+
+
+.review-slider ul.slick-dots li button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #525252;
+    border: transparent;
+    margin: 0 5px;
+
+}
+
+.review-slider ul.slick-dots {
+    position: absolute;
+    left: 50%;
+    bottom: -35px;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.review-slider ul.slick-dots li.slick-active button {
+    background: #fff;
+}
+
+/*======================== Footer Part CSS Start ============================*/
+#footer {
+    padding-top: 50px;
+    padding-bottom: 15px;
+
+}
+
+.footer-border {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 50px;
+}
+
+.navigate .active {
+    color: #fff;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.navigate a {
+    font-family: 'Manrope', sans-serif;
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    padding-bottom: 15px;
+    color: #BFBFBF;
+}
+
+.speakers .active {
+    color: #fff;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.speakers a {
+    font-family: 'Manrope', sans-serif;
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    padding-bottom: 15px;
+    color: #BFBFBF;
+}
+
+.newsletter a {
+    font-family: 'Manrope', sans-serif;
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+.newsletter p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #BFBFBF;
+    margin-bottom: 5px;
+}
+
+.newsletter input {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #BFBFBF;
+    background: transparent;
+    border: transparent;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.newsletter button {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 130px;
+    padding: 14px 40px;
+    background: #303030;
+    border: transparent;
+    transition: all linear .3s;
+}
+
+.newsletter button:hover {
+    background: #5162FE;
+}
+
+
+/*=================== Footer Bottom Part CSS Start =======================*/
+#footer-bottom {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.footer-bottom-right {
+    text-align: right;
+}
+
+.footer-bottom-left h4 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #E5E5E5;
+}
+
+.footer-bottom-right ul li {
+    display: inline-block;
+    padding-left: 25px;
+}
+
+.footer-bottom-right ul li a {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.footer-bottom-right ul li i {
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-right: 3px;
+}
+
+
+
+
+
+
+
+
+/* font-family: 'Comic Neue', cursive;
+font-family: 'Manrope', sans-serif; */
